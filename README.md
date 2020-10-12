@@ -15,7 +15,9 @@ When brought back online:
 
 ## Technology
 * [MongoBD](https://www.mongodb.com/)
+* [Mongoose]()
 * [Express](https://www.npmjs.com/package/express)
+* [Express-Compression](https://www.npmjs.com/package/compression)
 * [Heroku](https://devcenter.heroku.com/categories/reference)
 * [Node.js](https://nodejs.org/en/)
 * [npmjs](https://docs.npmjs.com/)
