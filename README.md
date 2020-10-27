@@ -28,4 +28,3 @@ Core Functionality:
 - [Github](https://github.com/paytonbanks)
 - [Email](mailto:payton.banks@gmail.com)
 
-mongodb+srv://pbanks:3303277@cluster0.kkmsa.mongodb.net/budget?retryWrites=true&w=majority
