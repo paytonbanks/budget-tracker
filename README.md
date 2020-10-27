@@ -40,3 +40,4 @@ Core Functionality:
 - [LinkedIn](https://www.linkedin.com/feed/)
 - [Github](https://github.com/paytonbanks)
 - [Email](mailto:payton.banks@gmail.com)
+
