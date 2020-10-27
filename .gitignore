@@ -1,6 +1,6 @@
 .DS_Store
 instructions.md
-node_modules
+node_modules/
 127.0.0.1_5502-20201010T143843.html
 dist/
 index-d.js

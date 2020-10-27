@@ -11,7 +11,7 @@ const transactionSchema = new Schema(
     },
     value: {
       type: Number,
-      required: "Enter an amount"
+      required: "Enter bill amount"
     },
     date: {
       type: Date,

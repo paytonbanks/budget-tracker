@@ -1,21 +1,18 @@
 # BUDGET TRACKER
 
 ## Description
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+Budget Tracker is Progressive Web Application (PWA) providing the user with online and offline functionality. The user will be able to add expenses and deposits to their budget with or without a interent connection. When users enter transactions offline, they will be able to populate the budget total when brought back online. 
 
-Offline Functionality:
+Core Functionality:
+  * Enter deposits offline
+  * Enter expenses offline
+  * Offline entries will be added to the tracker
+  * Automatic entry updating once brought back online
 
-* Enter deposits offline
-
-* Enter expenses offline
-
-When brought back online:
-
-* Offline entries should be added to tracker.
 
 ## Technology
 * [MongoBD](https://www.mongodb.com/)
-* [Mongoose]()
+* [Mongoose](https://mongoosejs.com/docs/)
 * [Express](https://www.npmjs.com/package/express)
 * [Express-Compression](https://www.npmjs.com/package/compression)
 * [Heroku](https://devcenter.heroku.com/categories/reference)
