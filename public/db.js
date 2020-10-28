@@ -25,5 +25,29 @@ function saveRecord(record) {
   pendingStore.add(record);
 }
 
+function checkDatabase() {
+  const db = request.result;
+  const transaction = db.transaction(["pending"], "readwrite");
+  const pendingStore = transaction.objectStore("pending");
+  const getAll = pendingStore.getAll();
+
+  getAll.onsuccess = function () {
+    if (getAll.result.length > 0) {
+      fetch("/api/transaction/bulk", {
+        method: "POST",
+        body: JSON.stringify(getAll.result),
+        headers: {
+          Accept: "application/json, text/plain, */*",
+          "Content-Type": "applicaton/json",
+        },
+      }).then((response) => response.json())
+        .then(() => {
+          const db = request.result;
+          const transaction = db.transaction(["pending"], "readwrite");
+          pendingStore.clear();
+      });
+    }
+  };
+}
 
 
