@@ -24,3 +24,6 @@ function saveRecord(record) {
   const pendingStore = transaction.objectStore("pending");
   pendingStore.add(record);
 }
+
+
+
