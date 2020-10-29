@@ -44,10 +44,13 @@ function checkDatabase() {
         .then(() => {
           const db = request.result;
           const transaction = db.transaction(["pending"], "readwrite");
+          const pendingStore = transaction.objectStore("pending");
           pendingStore.clear();
       });
     }
   };
 }
+
+window.addEventListener('online', checkDatabase);
 
 
