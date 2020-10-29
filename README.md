@@ -10,14 +10,14 @@ Core Functionality:
   * Automatic entry updating once brought back online
 
 ## Main Photo
-<span>![Header](public/images/shot1.png)</span>
+<span>![Header](public/images/header.gif)</span>
 
 ## Screen Shots
 
 | | |
 |:-------------------------:|:-------------------------:|
-|![Budget-Tracker-Demo](public/images/shot1.png) photo 1| ![Budget-Tracker-Demo](public/images/shot2.png) photo 2|
-|![Budget-Tracker-Demo](public/images/shot3.png) photo 3| ![Budget-Tracker-Demo](public/images/shot4.png)photo 4|
+|![Budget-Tracker-Demo](public/images/shot1.png) Dashboard| ![Budget-Tracker-Demo](public/images/shot2.png) Add Funds|
+|![Budget-Tracker-Demo](public/images/shot3.png) Subtract Funds| ![Budget-Tracker-Demo](public/images/shot4.gif) Transaction Log|
 
 ## Technology
 * [MongoBD](https://www.mongodb.com/)
