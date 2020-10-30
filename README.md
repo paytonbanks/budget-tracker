@@ -43,5 +43,5 @@ Core Functionality:
 
 ## Project Link
 *link*\
-![Budget Tracker](https://stark-basin-49521.herokuapp.com/)
+[Budget Tracker](https://stark-basin-49521.herokuapp.com/)
 
